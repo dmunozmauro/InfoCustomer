@@ -1,0 +1,8 @@
+Instaladas
+* npm i react-native-slot-machine
+* npm install react-router
+
+No instaladas
+* npm i react-native-bootsplash
+* npm i react-native-reanimated
+* npm i react-native-splash-screen

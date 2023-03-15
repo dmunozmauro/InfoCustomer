@@ -1,0 +1,80 @@
+{
+    "data": [
+        {
+            "root": "vert",
+            "prefix": [
+                {
+                    "pre": "ad",
+                    "sufix": [
+                        "ent",
+                        "ise",
+                        "ory"
+                    ]
+                },
+                {
+                    "pre": "a"
+                },
+                {
+                    "pre": "contro"
+                },
+                {
+                    "pre": "con",
+                    "sufix": [
+                        "er",
+                        "ible"
+                    ]
+                },
+                {
+                    "pre": "di"
+                },
+                {
+                    "pre": "e"
+                },
+                {
+                    "pre": "extra"
+                },
+                {
+                    "pre": "extro"
+                },
+                {
+                    "pre": "inad",
+                    "sufix": [
+                        "ence"
+                    ]
+                },
+                {
+                    "pre": "incontro",
+                    "sufix": [
+                        "ible"
+                    ]
+                },
+                {
+                    "pre": "intro"
+                },
+                {
+                    "pre": "in",
+                    "sufix": [
+                        "er"
+                    ]
+                },
+                {
+                    "pre": "per"
+                },
+                {
+                    "pre": "re"
+                },
+                {
+                    "pre": "sub"
+                },
+                {
+                    "pre": "",
+                    "sufix": [
+                        "ebra",
+                        "ex",
+                        "igo"
+                    ]
+                }
+            ]
+        }
+    ]
+}
