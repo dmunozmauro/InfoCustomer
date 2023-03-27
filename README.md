@@ -12,7 +12,8 @@ It is required to install Android Studio and the corresponding SDK's
 
 ## Facilities used
 
+```
 * npm i react-native-slot-machine
 * npm install react-router
-
+```
 ***
