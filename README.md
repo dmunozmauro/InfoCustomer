@@ -10,6 +10,17 @@ npm install
 
 It is required to install Android Studio and the corresponding SDK's
 
+
+## Run app
+
+To start the project, go to the root of the project and open a power shell terminal with the following command
+
+```
+npx react-native run-android
+npx react-native run-ios (exclusive on iPone or Ma
+npx react-native run-web
+```
+
 ## Facilities used
 
 All installations carried out in the project will be recorded in the **"facilities.txt"** file
