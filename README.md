@@ -21,4 +21,4 @@ npm install react-router
 
 ## Modified code
 
-The modified code information will remain in the **"modified-code.txt file"**. Within this, the component and the line of code that underwent changes and/or modifications will be indicated.
+The modified code information will remain in the **"modified-code.txt"** file. Within this, the component and the line of code that underwent changes and/or modifications will be indicated.

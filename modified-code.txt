@@ -1,2 +1,48 @@
 Modified code
 
+The file that feeds the application is called "data.json". This file contains a text in JSON format, with which you can navigate and view the information with the nomenclature 
+stored in it.
+
+Then the App.tsx file was modified. In this, the components that will be called from the first central button panel were declared, so that there can be fluid navigation between them. 
+In addition, this component contains navigation in containers, typical of mobile systems that facilitate said navigation with arrows and lower or upper central menus.
+
+============================================================================================================================================================================================
+
+- HomeComponent
+
+Within this component, the main view of the system was declared, in which it will show two buttons (blue and green) that will be the first to appear. With this, a function was also 
+declared that indicates that user logins will be available soon. At the moment, you can only enter as a guest.
+
+============================================================================================================================================================================================
+
+- MainComponent
+
+This component contains the entire main menu of the application. At the moment, the only active menu is the “Root Mode”, the others have not been created yet.
+
+============================================================================================================================================================================================
+
+- RootModeComponent
+
+This component is the one who manages all the Slot Machine of the system. Within this there are many variables, constants and functions declared to be able to configure and adapt 
+the application. For example, within line 33 of the code, the call to the information file data.json can be found within a hook. From here, all the information contained in that 
+file will be stored in a constant called “root”. After this, a 3 second timer allows the activation of the “Spin” button, which activates the Slot Machine of the prefixes and suffixes.
+
+The code for transforming the word based on spin starts at line 41 and ends at line 71. Inside, many constants are set to control the Spin button and also to set the variables that 
+were retrieved from the data. json and display the random prefixes and suffixes. Finally, the entire compound word will be shown, also rescuing the information from it and separating 
+the explanation of the word into 3 parts (prefix, morpheme and suffix).
+
+This component uses 3 external components where the Slot Machine code is located, these are PrefixComponent, RootComponent and SufixComponent
+
+============================================================================================================================================================================================
+
+- PrefixComponent, RootComponent and SufixComponent
+
+These 3 components receive a parameter from the GameModeComponent to be able to be displayed on the machine. With this, they have declared duration, height, padding, reading range, 
+the text and its width. All this, to then be rendered and called by the parent component.
+
+• Duration: 3000 (seconds)
+• High: 65
+• Padding: 1
+• Range: abcdefghijklmnopqrstuvwxyz
+• Text: incoming parameter (textValue)
+• Width: 30
